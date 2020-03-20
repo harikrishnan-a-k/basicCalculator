@@ -34,5 +34,9 @@ body{
 div.col-3{
     padding: 0 5px;
 }
+.btn.btn-warning{
+    color: white;
+
+}
 
 
