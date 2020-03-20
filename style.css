@@ -11,18 +11,26 @@ body{
     margin-bottom: 100px;
     width:100%;
 }
-footer{
+.footer{
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     height:60px ;
     background-color: rgb(27, 27, 212);
     color: white;
     width: 100%;
+    overflow: hidden;
 }
-footer p{
+.footer p{
     text-align: center;
     padding-top: 20px;
+    
 }
+
+.minHeight{
+    min-height: calc(90vh - 114px);
+}
+
+
 div.col-3{
     padding: 0 5px;
 }
