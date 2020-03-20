@@ -1,0 +1,30 @@
+.btn.mybtn{
+    padding: 1rem;
+    margin-right:0.5rem ;
+    margin-bottom:0.5rem;
+    /* width:4rem; */
+}
+html{
+    position: relative;
+}
+body{
+    margin-bottom: 100px;
+    width:100%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height:60px ;
+    background-color: rgb(27, 27, 212);
+    color: white;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+div.col-3{
+    padding: 0 5px;
+}
+
+
