@@ -7,10 +7,34 @@
 html{
     position: relative;
 }
+
 body{
+
     margin-bottom: 100px;
-    width:100%;
+    background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+    background-size: 400% 400%;
+    animation: bganimation 15s infinite;
 }
+
+@keyframes bganimation{
+    0%{
+        background-position: 0% 50%;
+        
+    }
+    33%{
+        background-position: 50% 50%;
+
+    }
+    66%{
+        background-position: 100% 100%;
+
+    }
+    100%{
+        background-position: 0% 50%;
+
+    }
+}
+
 .footer{
     position: absolute;
     bottom: 0px;
@@ -38,5 +62,19 @@ div.col-3{
     color: white;
 
 }
+.floating-text{
 
+    transform: translateY(0);
+    animation: f11 3s infinite linear;
+}
+
+@keyframes f11 {
+
+    30%{
+        transform: translateY(10%) rotate(6deg);
+    }
+    70%{ 
+        transform: translateY(10%) rotate(-6deg);
+    }
+}
 
